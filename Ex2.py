@@ -6,5 +6,7 @@ print('Введите втророе число')
 b = int(input())
 if b**2 == a:
     print('Yes')
+elif a**2 == b:
+    print('Yes')
 else:
     print('No')
